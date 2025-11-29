@@ -26,7 +26,7 @@ def _rerun():
             pass
 
 # ----------------- Page config -----------------
-st.set_page_config(page_title="Data Integrity Lab — HOLCIM", page_icon="🧪", layout="wide")
+st.set_page_config(page_title="Data Integrity Lab ", page_icon="🧪", layout="wide")
 
 # ----------------- Style (Holcim) -----------------
 HOLCIM_GREEN = "#94C12E"
@@ -469,3 +469,4 @@ st.markdown(textwrap.dedent("""
 - Pour de gros fichiers, préférez CSV et limitez le nombre de colonnes.  
 - Exports UTF-8 : au besoin, choisissez le séparateur correct à l’import Excel.  
 """))
+
