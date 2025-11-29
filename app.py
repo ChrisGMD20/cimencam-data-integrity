@@ -60,7 +60,7 @@ st.markdown(STYLE, unsafe_allow_html=True)
 st.markdown(
     """
 <div class="hero">
-  <h1>🧪 Data Integrity Lab — HOLCIM</h1>
+  <h1>🧪 Data Integrity Lab </h1>
   <p>Contrôles de qualité des données — profils, correspondances, règles métier — aux couleurs du Groupe.</p>
 </div>
 """,
@@ -469,4 +469,5 @@ st.markdown(textwrap.dedent("""
 - Pour de gros fichiers, préférez CSV et limitez le nombre de colonnes.  
 - Exports UTF-8 : au besoin, choisissez le séparateur correct à l’import Excel.  
 """))
+
 
